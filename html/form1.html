@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel="stylesheet" href="../css.css/form.css">
+<script src="../javascript/registration-form-validation.js"></script>
+
+</head>
+<div id= "style"></div>
+	<div class="loginbox">
+	<body onLoad="document.registration.userid.focus();">
+	<h1><i>Registration Form</i></h1><br>
+	
+	<form name='registration' action="#" method="post" onSubmit="return formValidation();">
+	<ul>
+
+<li><label for="userid"><br>User id:</label></li>
+<li><input type="text"  size="12" id="userid" placeholder="Enter Userid....... " required></li>
+
+<li><label for="passid"><br>Password </li>
+<li><input type="password" name="passid" id="passid" size="12" placeholder="Enter Password....... " required></li>
+<li><label for="username"><br> First Name:</label></li>
+<li><input type="text" name="username" size="50" placeholder="Enter First Name......" required/></li>
+<li><label for="Last Name"><br>Last Name:</label></li>
+<li><input type="text" name="Last Name" size="50" placeholder="Enter Last Name......" required/></li>
+<li><label for="address"><br>Address:</label></li>
+<li><input type="text" name="address" size="50" placeholder="Enter Address......" required/></li>
+<li><label for="country">Country:</label></li>
+<li><select name="country" >
+<option selected="" value="Default" >(Please select a country)</option>
+<option value="Australia" >Australia</option>
+<option value="Canada">Canada</option>
+<option value="India">India</option>
+<option value="Russia">Russia</option>
+<option value="USA">USA</option>
+</select></li>
+<li><br><label for="zip"><br><br>ZIP Code:</label></li><br>
+<br><li><br><br><input type="number" name="zip" max="999999" min="100000" placeholder="Enter Zip Code......" required/></li></br>
+<li><label for="email"><br>Email:</label></li>
+<li><input type="email" name="email" size="50" placeholder="Enter Email- Address......" required/></li>
+<li><label id="gender"><br>Sex:</label></li>
+<div class="container1"> 
+<li><input type="radio" name="sex" value="Male" required/><span>Male</span></li>
+<li><br><input type="radio" name="sex" value="Female" /><span>Female</span></li>
+</div>
+
+
+<div class="container">
+
+<li><input type="checkbox" name="ren" value=""  required ><span><br>I agree with the terms and condition</span></li>
+<li><label for="desc"><br>About:</label></li>
+<li><textarea name="desc" id="desc"required></textarea></li>
+<li><input type="submit" name="submit" value="Submit" ></li>
+
+</div>
+</ul>
+
+
+</form>
+</body>
+</html>

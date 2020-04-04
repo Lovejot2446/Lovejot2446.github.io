@@ -1,0 +1,211 @@
+body, html {
+    height: 100%;
+}
+
+body { 
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+background-attachment:fixed;
+}
+
+
+.Lovejot1{
+	background-color: black;
+	margin: auto;
+	width: 1100px;
+	height: 4350px;
+	
+}
+
+.header{
+	background-color:#241B18;
+	width: 1100px;
+	height: 100px;
+
+	}
+	.logo1{
+		background-color: #fff;
+		width: 800px;
+		height: 100px;
+		float: left;
+	}
+	.logo1 img{
+		
+		width: 200px;
+		height: 75px;
+		padding: 10px;
+	}		
+	.contact{
+		background-color:#fff;
+		width: 300px;
+		height: 100px;
+		float: left;
+		
+	}
+	.logomain{
+		background-color: #fff;
+		width: 100px;
+		height: 100px;
+		float: left;
+	}
+	.logo2{background-color: #fff;
+	width: 100px;
+	height: 50px;	
+	}
+	.logo2 img{
+		background-color:#fff;
+		width: 30px;
+		height: 25px;
+		padding-left: 49px;
+		padding-top: 20px;
+	}
+.logo3{
+		background-color: #fff;
+		width: 100px;
+		height: 50px;
+	}
+	.logo3 img{
+		background-color: #fff;
+		width: 30px;
+		height: 25px;
+		padding-left: 49px;
+	}
+	
+	
+	.cot{
+		background-color:#fff;
+		width: 200px;
+		height: 100px;
+		float: left;}
+
+ h5{
+	color:#E2B241;
+
+	}
+	.link3
+	{
+		background-color: blue;
+		width: 1100px;
+		height: 45px;
+		
+
+		}
+	.link3
+	{
+		background-color: blue;
+		width: 1100px;
+		height: 45px;
+		
+
+		}
+.link3 a:hover {
+    background-color: none;
+    color: black;}
+		
+		.links4{background-color: blue;
+		width: 800px;
+		height: 10px;
+		text-align:right;
+margin-left:220px;
+	padding: 13px;
+			
+		}
+	
+	.links
+	{
+		background-color: #E2B241;
+		width: 1100px;
+		height: 45px;
+		}
+		.links1{background-color: #E2B241;
+		width: 800px;
+		height: 10px;
+	
+	padding: 13px;
+			
+		}
+		.links a:hover {
+    background-color: none;
+    color: black;}
+		
+	
+	a
+	{
+		color: #fff9f9;
+		padding-left: 50px;
+text-decoration:none;	
+	}
+	.image,img{
+		
+		width: 1100px;
+		height: 400px;
+		
+	}
+		
+	.container{
+		float: left;
+		background-color:#0f0000;
+		width: 700px;
+		height: 400px;
+	}
+	.container p{
+		text-align: left;
+		padding : 10px;
+		color:#E2B241;;
+		background-color: #020000;
+		font-size: 20px;
+		color:#fff;
+	}
+	.container2{
+		background-color: #0d0000;
+		float: left;
+		width: 400px;
+		height: 400px;		
+	}
+	.container2 img{
+		width:400px;
+		height: 400px;
+	}
+	.box{
+		background-color: black;
+		width: 1100px;
+		height: 200px;
+	}
+	.box img{
+		margin: 7px;
+		width: 250px;
+		height: 200px;
+		border: 4px solid #E2B241;
+		float: left;
+	}
+	.footer h5{
+		background-color: red;
+		text-align: center;
+		clear:both;
+		color:#fff;
+		
+		color: #fff;
+		padding: 10px;
+	}
+	
+	
+
+	#wrapper {color:white; font-size: 110%;
+	}margin-left:25px;color:white;
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+
+    max-width: 960px; /* 2 */
+
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+}
+	.li{font-size: 130%;margin-left:25px;color:white;}

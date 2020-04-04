@@ -1,0 +1,22 @@
+
+thead  { background-color: aqua; }
+tfoot { font-weight: bold; background-color: aqua;}
+table {
+    border: 1px solid black;
+    border-collapse: collapse; }
+th, td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right; }
+th.left, td.left { text-align: left; 
+ }
+
+
+th:first-child, td:first-child {  
+
+    text-align: left; }
+th:nth-child(2), td:nth-child(2) {   
+
+    text-align: center; }
+tbody tr:nth-child(even) { 
+    background-color: silver; }
